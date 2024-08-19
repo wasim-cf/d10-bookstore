@@ -16,9 +16,13 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/admin_toolbar": "^3.5",
+        "drupal/bootstrap": "^3.32",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
-        "drupal/core-recommended": "^10.3"
+        "drupal/core-recommended": "^10.3",
+        "drupal/jquery_ui": "^1.7",
+        "drupal/jquery_ui_resizable": "^2.1"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -92,5 +96,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drush/drush": "^13.0"
     }
 }
