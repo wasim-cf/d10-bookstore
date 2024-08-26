@@ -1,0 +1,22 @@
+uuid: be092f0f-8ace-4817-9077-9ba7cfedf751
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bookstore
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: bookstore_powered
+theme: bookstore
+region: navigation
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

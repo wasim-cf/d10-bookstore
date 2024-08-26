@@ -1,0 +1,20 @@
+uuid: ca4f2945-14a8-4da9-9f7b-d8a3a67dbd97
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bookstore
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: bookstore_primary_admin_actions
+theme: bookstore
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

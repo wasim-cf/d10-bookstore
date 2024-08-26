@@ -1,0 +1,27 @@
+uuid: 1647bc96-79c6-4fff-97ec-2f7da2a35f46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book
+    - node.type.book
+  module:
+    - file
+id: node.book.field_book
+field_name: field_book
+entity_type: node
+bundle: book
+label: Book
+description: 'Please upload the book.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+field_type: file

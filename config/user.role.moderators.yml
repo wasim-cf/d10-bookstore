@@ -1,0 +1,15 @@
+uuid: 2d18f2c6-9e1f-47e3-a28f-0b455b04388f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.book
+  module:
+    - node
+id: moderators
+label: Moderators
+weight: 4
+is_admin: null
+permissions:
+  - 'delete any book content'
+  - 'edit any book content'

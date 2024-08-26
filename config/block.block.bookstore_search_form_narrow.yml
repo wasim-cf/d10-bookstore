@@ -1,0 +1,23 @@
+uuid: f77ecae9-f6c1-465c-8f35-4d17f6544b79
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - bookstore
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: bookstore_search_form_narrow
+theme: bookstore
+region: navigation
+weight: -2
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

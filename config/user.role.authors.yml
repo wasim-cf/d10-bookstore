@@ -1,0 +1,16 @@
+uuid: 476b1315-876b-4ecd-bc3b-2b734cfcd8d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.book
+  module:
+    - node
+id: authors
+label: Authors
+weight: 5
+is_admin: null
+permissions:
+  - 'create book content'
+  - 'delete own book content'
+  - 'edit own book content'
