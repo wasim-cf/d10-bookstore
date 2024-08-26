@@ -22,7 +22,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Author Books'
+      title: "Author's Books"
       fields:
         title:
           id: title
